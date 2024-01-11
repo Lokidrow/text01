@@ -1,0 +1,23 @@
+{
+  "name": "test01/test01",
+  "type": "project",
+  "description": "Тестовое задание",
+  "license": "GPL3",
+  "autoload": {
+    "psr-4": {
+      "controllers\\": "controllers/",
+      "models\\": "models/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-mbstring": "*"
+  }
+}
